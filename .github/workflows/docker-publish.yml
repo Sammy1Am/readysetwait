@@ -40,7 +40,7 @@ jobs:
       - id: lowercaseRepo
         uses: ASzc/change-string-case-action@v5
         with:
-          string: ${{ env.REPO_NAME }}
+          string: ${{ env.IMAGE_NAME }}
       
       # Install the cosign tool except on PR
       # https://github.com/sigstore/cosign-installer
