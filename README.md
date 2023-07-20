@@ -11,7 +11,6 @@ version: "3.9"
 services:
   rsw:
       image: ghcr.io/sammy1am/readysetwait:main
-      #entrypoint: tail -f /dev/null
       network_mode: none
       volumes:
         - /var/run/docker.sock:/var/run/docker.sock
