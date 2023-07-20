@@ -6,4 +6,4 @@ ADD https://raw.githubusercontent.com/jordyv/wait-for-healthy-container/master/w
 RUN chmod +x /opt/wait-for-healthy-container.sh
 
 ## Launch the wait tool
-ENTRYPOINT ["sh", "/opt/wait-for-healthy-container.sh"]
+ENTRYPOINT ["/bin/sh", "/opt/wait-for-healthy-container.sh"]
